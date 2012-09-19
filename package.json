@@ -1,0 +1,22 @@
+{
+  "name": "zappajs-template"
+, "description": "A working ZappaJS server with useful templates"
+, "version": "0.1.0"
+, "author": "Stephane Alnet <stephane@shimaore.net>"
+, "homepage": "https://github.com/zappajs/zappajs-template"
+, "repository": {
+    "type": "git",
+    "url": "git://github.com/zappajs/zappajs-template.git"
+  }
+, "dependencies": {
+    "zappajs": "0.4.x"
+  }
+, "keywords": ["zappa","zappajs"]
+, "main": "./bin/server.coffee"
+, "files": [
+    "bin/server.coffee"
+  ]
+, "publishConfig": {
+    "tag": "latest"
+  }
+}
