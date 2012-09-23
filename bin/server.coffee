@@ -5,4 +5,4 @@ else
 
 require('zappajs') port, ->
 
-  @get '/': 'hello world, from zappajs'
+  @include './content.coffee'
