@@ -34,4 +34,11 @@ Deploy on nodejitsu
     jitsu login
     jitsu deploy
 
+
+Use Node Cluster
+-------------------
+To start your app on cluster mode, with one worker per cpu:
+    
+    coffee bin/cluster.coffee --cluster
+
 Check out http://shimaore.zappajs-template.jit.su/ to see the default application.

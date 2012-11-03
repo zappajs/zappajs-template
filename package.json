@@ -9,7 +9,11 @@
     "url": "git://github.com/zappajs/zappajs-template.git"
   }
 , "dependencies": {
-    "zappajs": "0.4.x"
+    "zappajs": "0.4.x",
+    "commander": "latest",
+    "redis": "latest",
+    "connect": ">= 1.8.5",
+    "connect-redis": ">= 1.2.0"
   }
 , "keywords": ["zappa","zappajs"]
 , "main": "./bin/server.coffee"

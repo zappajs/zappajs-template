@@ -17,7 +17,7 @@
 		'YourSuperSecretSecretIsUltraStrongAndRandom'
 	)
 
-	# Require Connect's Redis Store for managing sessions
+	# Require the Connect Redis Store for managing sessions
 	RedisStore = require('connect-redis')(@express)
 
 	# Sessions
