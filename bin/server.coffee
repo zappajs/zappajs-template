@@ -5,4 +5,7 @@ else
 
 require('zappajs') port, ->
 
+  # Express Configurations for all environments
+  @configure @include './config/initializers/express'
+  
   @include './content.coffee'
